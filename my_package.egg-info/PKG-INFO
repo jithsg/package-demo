@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: my-package
-Version: 0.1.0
-Summary: A small example package
-Home-page: https://github.com/yourusername/my_package
-Author: Your Name
-Author-email: your.email@example.com
+Version: 0.0.0
+Summary: My package description
+Author-email: Josiah Carberry <josiah_carberry@brown.edu>
+License: MIT
 Requires-Python: >=3.6
 License-File: LICENSE
 Requires-Dist: numpy
+Requires-Dist: importlib-metadata; python_version < "3.8"
