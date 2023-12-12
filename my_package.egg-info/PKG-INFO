@@ -1,7 +1,10 @@
 Metadata-Version: 2.1
 Name: my-package
 Version: 0.1.0
-Summary: A brief description of what your package does
+Summary: A small example package
+Home-page: https://github.com/yourusername/my_package
 Author: Your Name
-Author-email: your_email@example.com
+Author-email: your.email@example.com
+Requires-Python: >=3.6
+License-File: LICENSE
 Requires-Dist: numpy
