@@ -1,0 +1,9 @@
+line-length = 88
+exclude = [
+  'build/',
+  'dist/'
+]
+select = [
+  'E501',  # line too long
+  'F401'   # module imported but unused
+]
