@@ -1,3 +1,3 @@
 # package-demo
-A simple python package
+Dependency graph of the package
 ![Dependency graph](dependency-graph.png)
