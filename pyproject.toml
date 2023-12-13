@@ -20,6 +20,7 @@ license = {text = "MIT"}
 
 dependencies = [
     "numpy",
+    "fastapi",
     'importlib-metadata; python_version<"3.8"',
 ]
 # dynamic = ["version"]

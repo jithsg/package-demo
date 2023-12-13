@@ -7,4 +7,5 @@ License: MIT
 Requires-Python: >=3.6
 License-File: LICENSE
 Requires-Dist: numpy
+Requires-Dist: fastapi
 Requires-Dist: importlib-metadata; python_version < "3.8"
