@@ -1,2 +1,2 @@
 install:
-	echo "Installing..."
+	/bin/bash ./run.sh install
