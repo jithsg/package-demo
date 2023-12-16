@@ -48,7 +48,7 @@ function publish:test {
         --password="$TEST_PYPI_TOKEN"
 }
 
-function publish:test {
+function publish:prod {
     load_dotenv
     twine upload dist/* \
         --repository pypi \
