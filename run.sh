@@ -22,38 +22,12 @@ function build {
     python -m build --sdist --wheel "$THIS_DIR/"
 
 }
-
-function clean {
-    rm -rf "$THIS_DIR/dist"
-    rm -rf "$THIS_DIR/build"
-    rm -rf "$THIS_DIR/*.egg-info"
-}
-
-function release:test {
-    clean
-    build
-    publish:test
-}
-
-function release:prod {
-    release:test
-    publish:prod
-}
-
 function publish:test {
     load_dotenv
     twine upload dist/* \
         --repository testpypi \
         --username=__token__ \
         --password="$TEST_PYPI_TOKEN"
-}
-
-function publish:test {
-    load_dotenv
-    twine upload dist/* \
-        --repository pypi \
-        --username=__token__ \
-        --password="$PROD_PYPI_TOKEN"
 }
 # function start {
 #     echo "start task not implemented"
