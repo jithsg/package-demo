@@ -5,7 +5,7 @@ on:
     types: [opened, synchronize]
   push:
     branches:
-        - main
+      - main
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
           /bin/bash run.sh build
           /bin/bash run.sh publish:test
         # env:
-        #     TEST_PYPI_TOKEN: ${{ secrets.}}
+        #     TEST_PYPI_TOKEN: ${{ secrets. }}
 
 
   dump_contexts_to_log:
